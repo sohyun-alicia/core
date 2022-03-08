@@ -35,6 +35,7 @@ public class ApplicationContextSameBeanFindTest {
     void findBeanByName() {
         MemberRepository memberRepository = ac.getBean("memberRepository1", MemberRepository.class);
         assertThat(memberRepository).isInstanceOf(MemberRepository.class);
+        
     }
     
     @Test
