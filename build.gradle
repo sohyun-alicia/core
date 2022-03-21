@@ -33,6 +33,7 @@ dependencies {
     //lombok 라이브러리 추가 끝
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.awaitility:awaitility:4.0.3'
 }
 
 tasks.named('test') {
